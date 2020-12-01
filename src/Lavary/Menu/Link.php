@@ -45,7 +45,7 @@ class Link
      * @param array   $path
      * @param Builder $builder
      */
-    public function __construct($path = array(), $builder)
+    public function __construct($path = array(), $builder = null)
     {
         $this->path = $path;
         $this->builder = $builder;
